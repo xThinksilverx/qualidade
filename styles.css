@@ -49,9 +49,18 @@ a{
     color: rgb(123, 197, 240);
     font-size: 15px;
     transition: 0.3s;
+    font-weight: bold;
 }
 a:hover{
     opacity: 1;
     color: rgb(231, 171, 243);
     transition: 0.3s;
+}
+
+.bemvindo{
+    font-size: 30px;
+    color: rgb(123, 197, 240);
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bold;
 }

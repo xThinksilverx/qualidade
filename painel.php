@@ -15,12 +15,16 @@ include('protect.php');
     <div class="tela-login">
         <h1>Painel do usuário</h1>
         <br>
-        Bem vindo ao Painel, <?php echo $_SESSION['nome']; ?>.
-        <p><a href="logout.php">Sair</a></p>
+        <div class="bemvindo">
+        Bem vindo ao Painel<?php echo $_SESSION['nome']; ?>
+        </div>
         <br>
         <p><a href="editar.php">Editar usuário</a></p>
         <br><br>
         <p><a href="deletar.php">Deletar usuário</a></p>
+        <br>
+        <p><a href="logout.php">Sair</a></p>
+        <br>
     </div>
 </body>
 </html>
